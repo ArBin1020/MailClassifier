@@ -22,7 +22,9 @@ pip install pandas nltk scikit-learn matplotlib tensorflow
 ```
 ##### Steps to Run the Classifier
 1. Download the Dataset
+
 Download the [SMS Spam Collection Dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset).
+
 2. Clone the Repository
 ```bash
 git clone https://github.com/ArBin1020/MailClassifier.git
@@ -34,5 +36,6 @@ To preprocess the data, train the model, and evaluate the classifier, run the fo
 python project.py
 ```
 4. Evaluate Results
+
 After running the classifier, the model's performance (accuracy, precision, recall, etc.) will be displayed, along with a visualization of the ROC curve.
 
